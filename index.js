@@ -55,4 +55,15 @@ function castDiceFunction() {
       img2.setAttribute('src', './images/dice6.png');
       break;
   }
+
+  if (randomNumber1 === randomNumber2) {
+    document.querySelector('h1').innerText = 'Draw!';
+  } else if (randomNumber1 > randomNumber2) {
+    document.querySelector('h1').innerText = 'Player1 Win!';
+  } else {
+    document.querySelector('h1').innerText = 'Player2 Win!';
+  }
+
+  console.log(randomNumber1);
+  console.log(randomNumber2);
 }
