@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+.container {
+  padding: 2rem 0;
+}
+
+img {
+  height: 60%;
+  width: 60%;
+}
+
+.players {
+  margin-bottom: 2rem;
+}
+
+.player1 {
+  width: 40%;
+  display: inline-block;
+}
+
+.player2 {
+  width: 40%;
+  display: inline-block;
+}
